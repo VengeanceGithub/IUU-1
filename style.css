@@ -1,0 +1,91 @@
+#icon{
+
+   float: right;
+   margin-left: 10px;
+   margin-bottom: 40px;
+   margin-right: 0px;
+  
+   right: 10px;
+   
+   top: 50px;
+ 
+}
+
+html {
+	scroll-behavior: smooth;
+}
+.back-to-top {
+	
+    margin-top: 40px;
+    float: right;
+    margin-right: 40px;
+	/*bottom: 2rem;*/
+	right: 2rem;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #dc143c;
+	border-radius: 0.5rem;
+	padding: 0.5rem;
+	text-decoration: none;
+	transition: 0.2s ease-out;
+    position: sticky;
+    bottom: 50;
+}
+
+.back-to-top span {
+	color: #fff;
+	font-size: 3rem;
+	transition: 0.2s ease-out;
+}
+
+.back-to-top:hover {
+	background-color: #be1a3b;
+}
+.back-to-top:hover span {
+	transform: translateY(-4px);
+}
+
+
+#header{
+
+    margin:1px;
+}
+
+.inline-heading,
+.inline-link {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+#about-link {
+    color:chocolate ; /* Change the color to your desired value */
+    /* Add any additional styles for the link here */
+}
+
+#ins{
+    float: left;
+}
+
+.about{
+    text-align:justify ;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#program{
+    text-align: center;
+}
+#par{
+    text-align:justify ;
+    margin-left: 70px;
+    margin-right: 250px;
+}
+.list{
+    margin-left: 600px;
+    margin-right: 140px;
+}
